@@ -15,6 +15,12 @@
 		941832121A51C3D70025FF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941832111A51C3D70025FF0B /* Images.xcassets */; };
 		941832151A51C3D70025FF0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941832131A51C3D70025FF0B /* LaunchScreen.xib */; };
 		941832211A51C3D70025FF0B /* FlappyBirdCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941832201A51C3D70025FF0B /* FlappyBirdCloneTests.swift */; };
+		941832311A51C6260025FF0B /* Ave1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9418322B1A51C6260025FF0B /* Ave1.png */; };
+		941832321A51C6260025FF0B /* Ave2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9418322C1A51C6260025FF0B /* Ave2.png */; };
+		941832331A51C6260025FF0B /* Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9418322D1A51C6260025FF0B /* Fondo.png */; };
+		941832341A51C6260025FF0B /* Suelo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9418322E1A51C6260025FF0B /* Suelo.png */; };
+		941832351A51C6260025FF0B /* Tubo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9418322F1A51C6260025FF0B /* Tubo1.png */; };
+		941832361A51C6260025FF0B /* Tubo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 941832301A51C6260025FF0B /* Tubo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		9418321A1A51C3D70025FF0B /* FlappyBirdCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9418321F1A51C3D70025FF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		941832201A51C3D70025FF0B /* FlappyBirdCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdCloneTests.swift; sourceTree = "<group>"; };
+		9418322B1A51C6260025FF0B /* Ave1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ave1.png; sourceTree = "<group>"; };
+		9418322C1A51C6260025FF0B /* Ave2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ave2.png; sourceTree = "<group>"; };
+		9418322D1A51C6260025FF0B /* Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fondo.png; sourceTree = "<group>"; };
+		9418322E1A51C6260025FF0B /* Suelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suelo.png; sourceTree = "<group>"; };
+		9418322F1A51C6260025FF0B /* Tubo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo1.png; sourceTree = "<group>"; };
+		941832301A51C6260025FF0B /* Tubo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tubo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 		941831F81A51C3D70025FF0B = {
 			isa = PBXGroup;
 			children = (
+				9418322A1A51C6260025FF0B /* Recursos */,
 				941832031A51C3D70025FF0B /* FlappyBirdClone */,
 				9418321D1A51C3D70025FF0B /* FlappyBirdCloneTests */,
 				941832021A51C3D70025FF0B /* Products */,
@@ -116,6 +129,19 @@
 				9418321F1A51C3D70025FF0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9418322A1A51C6260025FF0B /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				9418322B1A51C6260025FF0B /* Ave1.png */,
+				9418322C1A51C6260025FF0B /* Ave2.png */,
+				9418322D1A51C6260025FF0B /* Fondo.png */,
+				9418322E1A51C6260025FF0B /* Suelo.png */,
+				9418322F1A51C6260025FF0B /* Tubo1.png */,
+				941832301A51C6260025FF0B /* Tubo2.png */,
+			);
+			path = Recursos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +226,13 @@
 			files = (
 				941832151A51C3D70025FF0B /* LaunchScreen.xib in Resources */,
 				941832121A51C3D70025FF0B /* Images.xcassets in Resources */,
+				941832331A51C6260025FF0B /* Fondo.png in Resources */,
+				941832311A51C6260025FF0B /* Ave1.png in Resources */,
+				941832341A51C6260025FF0B /* Suelo.png in Resources */,
+				941832321A51C6260025FF0B /* Ave2.png in Resources */,
+				941832351A51C6260025FF0B /* Tubo1.png in Resources */,
 				941832091A51C3D70025FF0B /* GameScene.sks in Resources */,
+				941832361A51C6260025FF0B /* Tubo2.png in Resources */,
 				941832101A51C3D70025FF0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlappyBirdClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlappyBirdClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,6 +449,7 @@
 				941832261A51C3D70025FF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		941832271A51C3D70025FF0B /* Build configuration list for PBXNativeTarget "FlappyBirdCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +458,7 @@
 				941832291A51C3D70025FF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
